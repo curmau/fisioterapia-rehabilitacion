@@ -224,7 +224,19 @@ body {
 }
 
 @media (max-width: 768px) {
-    .hero_title { font-size: 3rem; }
-    .header_container { padding: 0 20px; }
-    .menu_nav { display: none; } /* Ocultar para móvil si no hay menú hamburguesa */
+    .hero_title {
+        font-size: 3rem; 
+    }
+    .header_container {
+        padding: 0 20px;
+    }
+    .menu_nav {
+        display: none; 
+    } /* Ocultar para móvil si no hay menú hamburguesa */
+    .footer_fijo {
+        display: flex;
+        flex-direction:column;
+        gap: 15px;
+        text-align: center;
+    }
 }
